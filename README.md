@@ -6,7 +6,7 @@ The Jupyter Notebook found in this repository contains an exercise in analyzing 
 
 ### Dependencies
  
-The _wine.ipynb_ was implemented in Python 3.6.6 and Jupyter Notebook version 5.6.0 running Conda version 4.5.11.
+_wine.ipynb_ was implemented in Python 3.6.6 and Jupyter Notebook version 5.6.0 running Conda version 4.5.11.
 Libraries used:
 
 * numpy
