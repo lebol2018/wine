@@ -25,4 +25,8 @@ The analysis part tries to answer the following questions:
 3. What is the most overpriced wine in the dataset, i.e. the wine with the highest price relative to other wines with the same rating?
 3. What is the "best value for money" wine in the dataset, i.e. the wine with the lowest price relative to other wines with the same rating?
 
-The modelling part is an attempt to predict the rating based on other features (Country, Year, Province, Region and Price). Two different Scikit Learn classifier models are used, and for each a Grid Search is performed in order to improve the models by optimizing their parameters. The accuracy achieved with either model is around 58% on the test dataset which means either that the models are poor, that the dataset is too small, or that wine ratings are so subjective that there is no relationship between the chosen features and the rating!
+The questions above are answered by performing straightforward operations on a pandas DataFrame.
+
+The modelling part is an attempt to predict the rating based on other features (Country, Year, Province, Region and Price). Two different Scikit Learn classifier models are used (Random Forest and a Neural Network), and for each a Grid Search is performed in order to improve the models over the defaults by optimizing their parameters. 
+
+The accuracy achieved with either model is around 58% on the test dataset which means either that the models are poor, that the dataset is too small, or that wine ratings are so subjective that there is no relationship between the chosen features and the rating!
