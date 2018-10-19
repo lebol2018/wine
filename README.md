@@ -3,6 +3,9 @@ Analysis and modelling of a Kaggle wine dataset
 
 The Jupyter Notebook found in this repository contains an exercise in analyzing and modelling data based on the Kaggle _Wine Reviews_ dataset, which can be found [here](https://www.kaggle.com/zynicide/wine-reviews). The dataset contains around 130,000 reviews.
 
+### Motivation
+
+I picked this dataset for an assignment in a Udacity nanodegree program because wine is an interesting subject to work with. Specifically, I was interested in using data analysis and machine learning methods to see if the wine _ratings_ are more than one particular reviewer's highly subjective opinion, by exploring the relationships between the ratings and other variables in the dataset.
 
 ### Dependencies
  
